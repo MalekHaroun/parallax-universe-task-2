@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax Effect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Gruppo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="background">
+    <div class="hero-atmosphere"></div>
+    <div class="stars"></div>
+    <div class="nebula nebula-1"></div>
+    <div class="nebula nebula-2"></div>
+    <div class="moon"></div>
+    <div class="planet"></div>
+    <div class="planet-ring"></div>
+    <h1>Parallax Effect</h1>
+    <div class="layer layer-1"></div>
+    <div class="layer layer-2"></div>
+    <div class="layer layer-3"></div>
+    <div class="hero-label">SCROLL TO EXPLORE</div>
+    <div class="scroll-indicator"><span></span></div>
+  </div>
+
+  <div class="content">
+    <div class="content-glow"></div>
+    <div class="text">
+      <p>In hac habitasse platea dictumst. Vivamus nec est et augue blandit aliquam quis non magna. Nunc velit nisi, porta ac libero in, porttitor placerat purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc ut posuere quam. Aenean in leo mattis, convallis dolor vel, tempor lectus.</p>
+      <p>Elit nulla vulputate ex, sed porta est risus ac lorem. Duis sed blandit felis. In hac habitasse platea dictumst. Vivamus nec est et augue blandit aliquam quis non magna. Nunc velit nisi, porta ac libero in, porttitor placerat purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc ut posuere quam. Aenean in leo mattis, convallis dolor vel, tempor lectus.</p>
+      <p>Duis sed blandit felis. Integer dictum, mi eget tristique semper, elit nulla vulputate ex, sed porta est risus ac lorem. In hac habitasse platea dictumst. Vivamus nec est et augue blandit aliquam quis non magna. Vestibulum ante ipsum primis.</p>
+      <p>Integer dictum, mi eget tristique semper, elit nulla vulputate ex, sed porta est risus ac lorem. Duis sed blandit felis. In hac habitasse platea dictumst. Vivamus nec est et augue blandit aliquam quis non magna. Nunc velit nisi, porta ac libero in, porttitor placerat purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc ut posuere quam. Aenean in leo mattis, convallis dolor vel, tempor lectus.</p>
+    </div>
+    <img class="rock-1 rocks" src="https://i.imgur.com/yIbmDYw.png" alt="rock"/>
+    <img class="rock-2 rocks" src="https://i.imgur.com/MZutMpv.png" alt="rock"/>
+    <img class="rock-3 rocks" src="https://i.imgur.com/AZumOFI.png" alt="rock"/>
+    <img class="rock-4 rocks" src="https://i.imgur.com/yIbmDYw.png" alt="rock"/>
+    <img class="rock-5 rocks" src="https://i.imgur.com/MZutMpv.png" alt="rock"/>
+    <img class="rock-6 rocks" src="https://i.imgur.com/MZutMpv.png" alt="rock"/>
+    <img class="rock-7 rocks" src="https://i.imgur.com/AZumOFI.png" alt="rock"/>
+    <img class="rock-8 rocks" src="https://i.imgur.com/yIbmDYw.png" alt="rock"/>
+    <img class="rock-9 rocks" src="https://i.imgur.com/yIbmDYw.png" alt="rock"/>
+    <img class="rock-10 rocks rock-fg" src="https://i.imgur.com/MZutMpv.png" alt="foreground-rock"/>
+    <img class="rock-11 rocks rock-fg" src="https://i.imgur.com/AZumOFI.png" alt="foreground-rock"/>
+    <div class="rock"></div>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
+  
+<div class="hud-panel">
+  <button id="scan-btn" class="hud-btn">
+    <span class="hud-icon">⚲</span>
+    <span class="hud-text">SCAN ANOMALIES</span>
+  </button>
+  <button id="warp-btn" class="hud-btn primary-btn">
+    <span class="hud-icon">⇊</span>
+    <span class="hud-text">WARP DRIVE</span>
+  </button>
+</div>
+</body>
+</html>
